@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial,Helvetica,sans-ser;
+
+}
+div>img {
+	height: 50px;
+	width: 50px;
+
+}
+
+#main-content {
+	color:#000;
+	font-size: 30px;
+	padding-bottom: 16px;
+	padding-top: 3px;
+	height: 400px;
+	
+	background-image: url("../img/seashore.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+#main-content p {
+	font-family: "Sofia";
+}
+#para {
+	font-size: 20px;
+	text-align: center;
+	font-family: "Sofia";
+}
+ div #followus{
+ 	background-image: url(../img/back5.jpg);
+ 	background-size: cover;
+	border: solid black;
+	text-align: center;
+}
+nav a{
+	color: black;
+}
+a .nav-link .fa{
+	color: black;
+}
+#best {
+	
+	background-image: url(../img/back7.jpg);
+ 	background-size: cover;
+	border: solid black;
+	text-align: left;
+}
+#Register {
+	background-image: url(../img/back8.jpg);
+ 	background-size: cover;
+	border: solid black;
+	text-align: center;
+}
+form img {
+	height: 50px;
+	width: 50px;
+}
+div .div {
+	padding: 5px;
+	margin: 5px;
+
+}
+span img {
+	height: 120px;
+	width: 120px;
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.turkey{
+
+	background-image: url(../img/turkey.jpg) ;
+	background-size: cover;
+	
+}
+.spain{
+	
+	background-image: url(../img/spain.jpg);
+	background-size: cover;
+}
+.singapore{
+	
+	background-image: url(../img/singapore.jpg);
+	background-size: cover;
+}
+.paris{
+	
+	background-image: url(../img/paris.jpg);
+	background-size: cover;
+}
+.italy{
+	
+	background-image: url(../img/italy.jpg);
+	background-size: cover;
+}
+input.input{
+	width: 50%;
+}
+
