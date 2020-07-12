@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Assignment 3</title>
+
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+        <!-- JS, Popper.js, and jQuery -->
+         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body background="images/bg.jpg">
+        <div class="container">
+        <h1>Assignment 3</h1>
+       
+                    <table class="align-middle">
+                        <tr>
+                            <td>
+                                <div class="container">
+                                    <label for ="timebox">Enter time Interval: </label>
+                                    <input type="number" name="timebox" id="time" placeholder="time in seconds"/>
+                                    <button type="submit" class="btn btn-success" id="row1Button" onclick="show();">Submit</button>
+                                </div>
+                            </td>
+                                
+                            <td>
+                                <img src="images/image0.png" id="img"/>                                 
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td >
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <label for ="num1">Enter Number: </label>
+                                            <input type="number" name="num1" placeholder="Enter"id="n1">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for ="num2">Enter Number: </label>
+                                            <input type="number" name="num2" placeholder="Enter"id="n2"> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <button class="add btn btn-warning btn-block" onclick="add();">addition</button>
+                                        </div>
+                                        <div class="col-12 col-md-3">
+                                            <button class="sub btn btn-warning btn-block" onclick="sub();">subtraction</buttton>
+                                        </div>
+                                        <div class="col-12 col-md-3">
+                                            <button class="mul btn btn-warning btn-block" onclick="mul();">multiplication</button>
+                                        </div>
+                                        <div class="col-12 col-md-3">
+                                            <button class="div btn btn-warning btn-block" onclick="div();">division</button>
+                                        </div>
+                                        
+                                        
+                                    
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <textarea disabled id="ans" class="align-middle"></textarea>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td colspan="2">
+                                <div class="container"> 
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-4">
+                                            <label for="email">Email-Id:</label>
+                                            <input type="text" name="email" placeholder="xyz@abc.com Don't select plz type."class="email" id="email" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+            
+                    </table>
+            
+        </div>
+    </body>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>
