@@ -1,0 +1,64 @@
+*.{
+    
+    box-sizing: border-box;
+    
+}
+
+.slideshowimg{
+    width: 170px;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    color: red;
+}
+
+    
+
+table {
+    border-collapse: collapse;
+    background-color: #a9a9a9;
+    margin: auto;
+  }
+  
+table, th, td {
+    border: 3px solid #000000;
+    padding:10px;
+   
+  }
+
+td:nth-child(2)
+{
+    height: 150px;
+    width: 200px;
+}
+
+#img{
+      height: 200px;
+      width: 200px;
+}
+
+#ans{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 2em;
+    height: 100%;
+    width: 100%;
+}
+
+input:hover{
+    border: 2px solid #fff000;
+}
+
+label{
+    color: black;
+    margin-top: 5px;
+}
+#email {
+    background-color: white;
+}
+.email {
+    width: 500px;
+}
